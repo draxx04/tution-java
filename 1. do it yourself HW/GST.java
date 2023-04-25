@@ -15,7 +15,7 @@ class GST {
         double pro4 = sc.nextDouble();
         sc.close();
         double productprice = (pro1 + pro2 + pro3 + pro4);
-        double _18percentgst_ = (productprice * (18 / 100)); // formula for 18%gst
+        double _18percentgst_ = (productprice * 18) / 100; // formula for 18%gst
         double total_amount = productprice + _18percentgst_;
         System.out.println("the total amount with gst of the 4 products is : " + total_amount);
 
