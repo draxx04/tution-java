@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Total_exp {
+public class total_exp {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the quantity of item : ");
@@ -15,7 +15,7 @@ public class Total_exp {
         else{
             System.out.println("No discount is given");
         }
-        double total_exp = (qty*price) - discount ;
-        System.out.println("the total expenses for purchasing the products are : "+total_exp);
+        double total_expense = (qty*price) - discount ;
+        System.out.println("the total expenses for purchasing the products are : "+total_expense);
     }    
 }
