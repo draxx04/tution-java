@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class total_exp {
+public class total_exps {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the quantity of item : ");
