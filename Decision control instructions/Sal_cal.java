@@ -35,7 +35,7 @@ public class Sal_cal {
             else if (yrs_of_service<10 && qualifications == 1){
                 salary = 10000;
             }
-            else if (yrs_of_service<10 && qualifications == 0){
+                else if (yrs_of_service<10 && qualifications == 0){
                 salary = 6000;
             }
         }
